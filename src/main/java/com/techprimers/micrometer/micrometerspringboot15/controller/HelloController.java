@@ -17,7 +17,7 @@ public class HelloController {
     )
     @GetMapping("/hello")
     public String hello() {
-        return "Hello Youtube";
+        return "Hello number 1";
     }
 
     @Timed(
@@ -28,7 +28,7 @@ public class HelloController {
     )
     @GetMapping("/hello2")
     public String hello2() {
-        return "Hello Youtube";
+        return "Hello number 2";
     }
     @Timed(
             value = "ascencio.hello2.request",
@@ -38,7 +38,7 @@ public class HelloController {
     )
     @GetMapping("/hello3")
     public String hello3() {
-        return "Hello Youtube";
+        return "Hello number 3";
     }
     @Timed(
             value = "ascencio.hello2.request",
@@ -48,6 +48,6 @@ public class HelloController {
     )
     @GetMapping("/hello4")
     public String hello4() {
-        return "Hello Youtube";
+        return "Hello number 4";
     }
 }
